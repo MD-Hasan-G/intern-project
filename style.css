@@ -28,11 +28,11 @@ body{
     margin-bottom: 3px;
 }
 .left{
-    padding-left: 100px;
+    padding-left: 170px;
 }
 
 .header-description p{
-    text-align: center;
+    text-align: right;
     width: 340px;
     margin-top:20px;
 }
@@ -47,6 +47,7 @@ body{
     font-size: 15px;
     color: white;
     font-weight: 700;
+    border-radius: 10px;
     
 }
 
@@ -89,7 +90,7 @@ body{
 .failure-description p{
     margin-top: 20px;
     width:320px;
-    text-align: justify;
+    text-align: left;
     margin-bottom:20px;
 }
 .failure-description li{
@@ -100,8 +101,8 @@ body{
 /* Failure Section End */
 .title{
     text-align: center;
-    margin-top: 200px;
-    padding-bottom: 40px;
+    margin-top: 150px;
+    padding-bottom:40px;
 }
 .plan{
     display: flex;
@@ -127,7 +128,7 @@ body{
 .keep{
     background-image: url('images/watch.png');
     background-repeat:no-repeat;
-    height:250px;
+    height:200px;
     padding: 50px 90px;
     margin-top: 100px;
 }
@@ -146,6 +147,23 @@ body{
     border: none;
     margin-top: 15px;
     color: red;
+}
+
+/* Keep Section End */
+
+.group-title h1{
+    margin-left: 400px;
+}
+.group-img{
+   
+    border-radius: 10px;
+}
+.Early{
+    margin-top: -150px;
+}
+
+.Early p{
+    text-align: justify;
 }
 
 .total-footer{
